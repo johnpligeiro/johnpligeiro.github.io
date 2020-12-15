@@ -7,9 +7,11 @@ body {
 h1 {
     color: rgb(17, 53, 53);
     text-align: center;
-    background-color: rgb(210, 250, 250);
+    line-height: 40px;
+    background-color: rgb(210,250,250);
 }
 h2 {
     color: rgb(17, 53, 53);
     background-color: rgb(210, 250, 250);
+    line-height: 30px;
 }
