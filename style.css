@@ -18,4 +18,6 @@ h2 {
     background-color: rgb(210, 250, 250);
     line-height: 30px;
 }
-
+#ligeiro {
+    border-radius: 40px;
+}
