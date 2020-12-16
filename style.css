@@ -18,11 +18,4 @@ h2 {
     background-color: rgb(210, 250, 250);
     line-height: 30px;
 }
-#ligeiro {
-    position: absolute;
-    top: 15%;
-    left: 73%;
-    z-index: 1;
-    border-radius: 40px;
-}
 
