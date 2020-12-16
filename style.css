@@ -20,4 +20,6 @@ h2 {
 }
 #ligeiro {
     border-radius: 40px;
+    float: left;
+    padding: 20px;
 }
