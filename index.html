@@ -7,37 +7,29 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<!--
-Requisitos
-Seu Portfólio Web deve ter as seguintes informações:
-Seu nome completo;
-Uma foto atual sua, acompanhada de um texto alternativo, que deve ser a descrição da foto que você está usando;
-Uma breve descrição sobre você, destacando algumas informações como nacionalidade e a cidade/estado onde mora;
-Uma lista de habilidades que você possui, com destaque para aquela de que você mais se orgulha;
-Um link interno para a sua foto;
-Um link externo para algum blog de que você goste, que abra em uma nova aba;
-Partes do seu portfólio destacadas com negrito e/ou itálico;
-Um índice com links internos para as diferentes seções do seu portfólio.
--->
-    <h1 id="inicio">John Pierre Mendes Ligeiro</h1>
+    <div id="header">
+        <h1 id="inicio">John Pierre Mendes Ligeiro</h1>
     
-    <center><img id="ligeiro" src="ligeiro.jpeg" alt="John Pierre Mendes Ligeiro, pessoa estudante na Trybe, uniformizado e com vegetação ao fundo." width="200px"></center>
-    <p id="bio">
-    Pessoa estudante na <a href="https://www.betrybe.com/" target="_blank">Trybe</a> (Turma 9 - Setembro/2020) em fase de migração para a área desenvolvimento.<br> Sou de Engenheiro Mecânico de formação e moro em <a href="https://pt.wikipedia.org/wiki/Caratinga" target="_blank">Caratinga</a>, no leste mineiro.<br> Entusiasmado com tecnologia, jogos, filosofia, psicologia e ciências em geral. <br><br>
-    </p>  
+        <center><img id="ligeiro" src="ligeiro.jpeg" alt="John Pierre Mendes Ligeiro, pessoa estudante na Trybe, uniformizado e com vegetação ao fundo." width="200px"></center>
+        <p id="bio">
+        Pessoa estudante na <a href="https://www.betrybe.com/" target="_blank">Trybe</a> (Turma 9 - Setembro/2020) em fase de migração para a área desenvolvimento.<br> Sou de Engenheiro Mecânico de formação e moro em <a href="https://pt.wikipedia.org/wiki/Caratinga" target="_blank">Caratinga</a>, no leste mineiro.<br> Entusiasmado com tecnologia, jogos, filosofia, psicologia e ciências em geral. <br><br>
+        </p>  
+    </div>
+    
+    <div id="indice">
+        <p>
+            <strong>Índice</strong><br>
+            <a href="#habilidades">Habilidades</a><br>
+            <a href="#hobby">Hobbies</a><br>
+            <a href="#projetos">Projetos na Trybe</a><br>
+            <a href="#outros">Outros Projetos</a>
+            <br><br><br>
+        </p>  
+    </div>
 
-    <p id="indice">
-    <strong>Índice</strong><br>
-    <a href="#habilidades">Habilidades</a><br>
-    <a href="#hobby">Hobbies</a><br>
-    <a href="#projetos">Projetos na Trybe</a><br>
-    <a href="#outros">Outros Projetos</a>
-    <br><br><br>
-    </p>  
-
-    <h2 id="habilidades">Habilidades e Qualidades</h2>
+    <div id="hab">
+        <h2 id="habilidades">Habilidades e Qualidades</h2>
         <p> Entre as habilidades e qualidades que cultivo, estão:</p><br>
-
 
     <ul> 
         <li>Sou <strong>autodidata</strong> e gosto muito de aprender coisas novas das mais diversas áreas;</li>
@@ -46,20 +38,24 @@ Um índice com links internos para as diferentes seções do seu portfólio.
         <li>Antes da engenharia trabalhei com manutenção de computadores, redes, design gráfico, licenciamento ambiental e lecionei na educação básica;</li>
         <li>Paixão e curiosidade pela natureza e pelos <a href="ligeiro2.jpeg" alt="Ligeiro, pessoa estudante da Trybe" target="_blank">animais</a>.
     </ul><br>
-
-
-    <h2 id="hobby">Meus hobbies</h2>
-    <img src="instrumento.png" alt="Violão clássico" width="150px"><br>
-    <ul>
-        <li>Música;</li>
-        <li>Poesia;</li>
-        <li>Cinema;</li>
-        <li>Pintura;</li>
-        <li>Literatura.</li>
-    </ul>
+    </div>
+   
+    <div id="hobbies">
+        <h2 id="hobby">Meus hobbies</h2>
+        <img src="instrumento.png" alt="Violão clássico" width="150px"><br>
+        <ul>
+            <li>Música;</li>
+            <li>Poesia;</li>
+            <li>Cinema;</li>
+            <li>Pintura;</li>
+            <li>Literatura.</li>
+        </ul>
         <p>Atualmente passo bastante tempo no site do <a href="https://bananacifras.com.br/" target="_blank">Banana Cifras</a>  aprendendo a tocar as músicas do Chico, do Caetano e do Belchior. <br> Vez em quando eu arrisco estudar um Villa-Lobos, mas sou nível "iniciante" <strong>ainda</strong>. <br>
         Me arrisco também a escrever poesias e canções, vez ou outra. Deixei <a href="Aguape.png" target="_blank">aqui</a>  um soneto que escrevi esse ano e fala de liberdade. <br><br><br>
         </p>
+    </div>
+    
+    <div id="projects">
         <h2 id="projetos">Projetos Trybe (em construção)</h2>
         <p>Aqui, os links de acesso para os projetos desenvolvidos ao longo da formação da Trybe. #vqv</p>
         <ol>
@@ -69,6 +65,9 @@ Um índice com links internos para as diferentes seções do seu portfólio.
             <li>Projeto 4</li>
             <li>Projeto 5</li>
         </ol>
+    </div>
+        
+    <div id="other">
         <h2 id="outros">Projetos Paralelos</h2>
         <p>Aqui, os links de acesso para os projetos desenvolvidos em paralelo a formação da Trybe. #vqv</p>
         <ol>
@@ -78,5 +77,7 @@ Um índice com links internos para as diferentes seções do seu portfólio.
             <li>Projeto 4</li>
             <li>Projeto 5</li>
         </ol>
-        <br><a href="#inicio">Voltar para o início</a>
+    </div>
+       
+    <br><a href="#inicio">Voltar para o início</a>
 </html>
